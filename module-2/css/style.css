@@ -6,6 +6,8 @@ h1{
     box-sizing: border-box;
 }
 
+/********BOXES***********/
+
 #section1{
     background: lightblue;
     margin-bottom: 30px;
@@ -19,8 +21,10 @@ h1{
 #section3{
     background: lightpink;
     margin-bottom: 30px;
-
 }
+
+
+/********TITLES OF BOXES***********/
 
 h3{
     position: relative;
@@ -53,6 +57,9 @@ h3{
     border-top: none;
 }
 
+
+/********BIG DEVICES***********/
+
 @media (min-width: 992px)
 {
     div{
@@ -62,8 +69,10 @@ h3{
         border: 1px solid black;
         margin: 10px;
     }
-
 }
+
+
+/********MEDIUM DEVICES***********/
 
 @media (min-width: 768px) and (max-width: 991px)
 {
@@ -81,6 +90,9 @@ h3{
         /*margin-top: 10px;*/
     }
 }
+
+
+/********SMALL DEVICES***********/
 
 @media (max-width: 767px)
 {
